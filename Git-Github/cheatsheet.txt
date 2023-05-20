@@ -74,6 +74,8 @@ Switched to branch 'trabajo_github'
 Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (trabajo_github)
 $
 
+Bueno luego hice el merge pero cerre la terminal y no tengo el codigo xdd
+
 
 *******************************************PASOS HASTA AHORA*******************************************
 
