@@ -1,0 +1,91 @@
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio
+$ git init
+Initialized empty Git repository in C:/Users/Asus/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio/.git/
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ git remote add origin https://github.com/FabrizioR17/Mochila_Rodriguez_Fabrizio.git
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ mkdir Entrega1 Entrega2 Entrega3 Entrega4 Entrega5 Git-Github
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ touch Entrega1/Readme.md
+touch Entrega2/Readme.md
+touch Entrega3/Readme.md
+touch Entrega4/Readme.md
+touch Entrega5/Readme.md
+touch Git-Github/Readme.md
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ ls -R
+.:
+Entrega1/  Entrega2/  Entrega3/  Entrega4/  Entrega5/  Git-Github/
+
+./Entrega1:
+Readme.md
+
+./Entrega2:
+Readme.md
+
+./Entrega3:
+Readme.md
+
+./Entrega4:
+Readme.md
+
+./Entrega5:
+Readme.md
+
+./Git-Github:
+Readme.md
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ git add .
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ git commit -m "primer commit de la entrega"
+[main (root-commit) db9a9ed] primer commit de la entrega
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Entrega1/Readme.md
+ create mode 100644 Entrega2/Readme.md
+ create mode 100644 Entrega3/Readme.md
+ create mode 100644 Entrega4/Readme.md
+ create mode 100644 Entrega5/Readme.md
+ create mode 100644 Git-Github/Readme.md
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 299 bytes | 99.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/FabrizioR17/Mochila_Rodriguez_Fabrizio.git
+ * [new branch]      main -> main
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ git branch trabajo_github
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (main)
+$ git checkout trabajo_github
+Switched to branch 'trabajo_github'
+
+Asus@DESKTOP-Q2TG26K MINGW64 ~/Desktop/INFORMATICA/Mochila_Rodriguez_Fabrizio (trabajo_github)
+$
+
+
+*******************************************PASOS HASTA AHORA*******************************************
+
+git clone [URL]--	Clona un repositorio existente en tu máquina local.
+git init--	Inicializa un nuevo repositorio local en el directorio actual.
+git add-- [archivo]	Agrega un archivo específico al área de preparación para ser incluido en el próximo commit.
+git add .	--Agrega todos los archivos modificados y nuevos al área de preparación.
+git commit -m "mensaje"	--Crea un nuevo commit con los cambios en el área de preparación y un mensaje descriptivo.
+git push [remote] [rama]	--Sube los commits locales al repositorio remoto y a la rama especificada.
+git pull [remote] [rama]	--Descarga los cambios del repositorio remoto y los fusiona con tu rama actual.
+git branch	--Muestra una lista de las ramas existentes en el repositorio local.
+git branch [nombre]	--Crea una nueva rama con el nombre especificado.
+git checkout [rama]	--Cambia a la rama especificada.
+git status	--Muestra el estado actual del repositorio y los archivos modificados.
+git log	--Muestra el historial de commits realizados en el repositorio.
