@@ -1,0 +1,29 @@
+telnet:
+Ventajas de Telnet:
+
+Es fácil de usar: Telnet es un método simple para conectarse a otros dispositivos y servidores de forma remota.
+
+Puede funcionar en diferentes sistemas: Telnet es compatible con varios sistemas operativos, lo que permite conectarse a diferentes tipos de dispositivos.
+
+Desventajas de Telnet:
+
+Falta de seguridad: Telnet no protege la información que se envía, lo que significa que las contraseñas y los comandos son enviados sin cifrar. Esto puede hacer que sea fácil para alguien interceptar y acceder a la información.
+
+Limitaciones en la administración remota: Telnet no ofrece funciones avanzadas, como transferencia de archivos o ejecución segura de comandos remotos.
+
+SSH:
+Seguridad: SSH cifra los datos transmitidos, lo que garantiza la seguridad de la información.
+Autenticación sólida: SSH ofrece métodos de autenticación seguros, como claves públicas y autenticación de dos factores
+.
+Desventajas de utilizar SSH:
+
+Configuración inicial más compleja: La configuración de SSH puede ser un poco más complicada que otros protocolos.
+Requiere acceso a un servidor SSH: Es necesario tener acceso a un servidor SSH para utilizarlo como método de acceso remoto.
+
+
+Diferencias:
+
+Seguridad: SSH proporciona una capa de seguridad adicional al cifrar los datos transmitidos, lo que protege la información sensible de ser interceptada. Telnet, por otro lado, transmite los datos en texto plano, lo que hace que sea vulnerable a ataques de escucha y suplantación de identidad.
+Funcionalidades avanzadas: SSH ofrece funcionalidades adicionales, como transferencia de archivos y capacidad para ejecutar comandos remotos de forma segura. Telnet carece de estas funcionalidades y se centra en proporcionar solo una conexión remota básica.
+Otra diferencia es que SSH admite autenticación más segura, como claves públicas y autenticación de dos factores, mientras que Telnet se basa principalmente en contraseñas simples para la autenticación.
+
